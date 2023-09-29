@@ -1,0 +1,19 @@
+### Flask ###
+instance/*
+!instance/.gitignore
+.webassets-cache
+.env
+
+### Flask.Python Stack ###
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Virtual environment
+.venv/
+
+# Others
+notes.txt
