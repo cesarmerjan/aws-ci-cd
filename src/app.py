@@ -90,7 +90,7 @@ def sign_in():
 @app.get("/")
 @login_required
 def index():
-    return {"message": "index"}, 200
+    return {"message": "INDEX"}, 200
 
 
 @app.get("/health-check/")
