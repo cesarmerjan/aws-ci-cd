@@ -95,7 +95,7 @@ def index():
 
 @app.get("/health-check/")
 def health_check():
-    return {"message": "ok"}, 200
+    return {"message": "ok!"}, 200
 
 
 user_cli = AppGroup("user")
